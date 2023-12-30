@@ -1,0 +1,12 @@
+/* Global CSS*/
+body {
+   margin: 0;
+   font-family: "Poppins", sans-serif;
+   -webkit-font-smoothing: "Poppins", sans-serif;
+   -moz-osx-font-smoothing: "Poppins", sans-serif;
+   font-style: normal;
+   background-color: var(--background);
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
