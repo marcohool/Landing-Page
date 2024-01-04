@@ -10,3 +10,12 @@ body {
 
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+   --primary: #c7493a;
+   --primary-alt: #a33327;
+   --secondary: #689775;
+   --black: #000;
+   --grey: #9c9c9c;
+   --white: #ffffff;
+}
