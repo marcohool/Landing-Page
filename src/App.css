@@ -5,7 +5,7 @@ body {
    -webkit-font-smoothing: "Poppins", sans-serif;
    -moz-osx-font-smoothing: "Poppins", sans-serif;
    font-style: normal;
-   background-color: var(--background);
+   background-color: var(--black);
 }
 
 /* Fonts */
