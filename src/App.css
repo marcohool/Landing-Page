@@ -1,11 +1,12 @@
 /* Global CSS*/
 body {
    margin: 0;
+   padding: 0;
    font-family: "Poppins", sans-serif;
    -webkit-font-smoothing: "Poppins", sans-serif;
    -moz-osx-font-smoothing: "Poppins", sans-serif;
    font-style: normal;
-   background-color: var(--black);
+   background-color: var(--dark-grey);
 }
 
 /* Fonts */
@@ -16,6 +17,18 @@ body {
    --primary-alt: #a33327;
    --secondary: #689775;
    --black: #000;
+   --dark-grey: #222222;
    --grey: #9c9c9c;
    --white: #ffffff;
+}
+
+.container-large {
+   width: 100%;
+   max-width: 90rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.text-colour-white {
+   color: var(--white);
 }

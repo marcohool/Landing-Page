@@ -2,7 +2,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 2.5rem 4rem;
+   padding: 2.5rem 10rem;
    background: var(--background);
    /* box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1); */
    position: fixed;
@@ -13,15 +13,17 @@
 
 .navbar--items {
    display: flex;
-   flex-direction: row;
+   /* flex-direction: row; */
+   grid-column-gap: 2em;
 }
 
 .navbar--items > ul {
-   list-style: none;
+   /* list-style: none;
    display: flex;
    align-items: flex-start;
-   gap: 42.667px;
-   text-decoration: none;
+   text-decoration: none; */
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .navbar--items > ul > li > a {
@@ -29,7 +31,7 @@
 }
 
 .navbar--content {
-   color: var(--darkblue);
+   color: var(--white);
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
