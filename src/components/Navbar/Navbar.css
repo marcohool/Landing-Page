@@ -18,10 +18,8 @@
 }
 
 .navbar--items > ul {
-   /* list-style: none;
-   display: flex;
+   list-style: none;
    align-items: flex-start;
-   text-decoration: none; */
    margin-left: auto;
    margin-right: auto;
 }
