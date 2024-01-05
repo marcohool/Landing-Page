@@ -17,6 +17,14 @@
    grid-column-gap: 2em;
 }
 
+.navbar--img {
+   background: url(../../../public/images/Logo-Text-Horizontal-White.png);
+   background-size: cover;
+   width: 190px;
+   max-height: 6rem;
+   height: 65px;
+}
+
 .navbar--items > ul {
    list-style: none;
    align-items: flex-start;

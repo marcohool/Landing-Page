@@ -36,7 +36,7 @@ function Navbar() {
       <nav className={`navbar ${navActive ? "active" : ""}`}>
          <div>
             <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">
-               Ronix
+               <div className="navbar--img"></div>
             </Link>
          </div>
          <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
