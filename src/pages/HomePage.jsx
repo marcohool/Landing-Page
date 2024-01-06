@@ -10,7 +10,7 @@ export default function HomePage() {
       // After component mounts, calculate and set padding-top
       const handleResize = () => {
          if (mainRef.current) {
-            const navbarHeight = document.querySelector("#root > div > nav").offsetHeight;
+            const navbarHeight = document.querySelector("#root > div > div > div > div > nav").offsetHeight;
             mainRef.current.style.paddingTop = `${navbarHeight}px`;
          }
       };
@@ -29,10 +29,14 @@ export default function HomePage() {
             <div className="background-img"></div>
          </div>
          <div className="content">
-            <Navbar />
-            <main ref={mainRef}>
-               <HeroSection />
-            </main>
+            <div className="padding--global">
+               <div className="navbar--fixed--wrapper">
+                  <Navbar />
+               </div>
+               <main ref={mainRef}>
+                  <HeroSection />
+               </main>
+            </div>
          </div>
       </>
    );

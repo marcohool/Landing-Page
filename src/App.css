@@ -22,6 +22,11 @@ body {
    --white: #ffffff;
 }
 
+.padding--global {
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
 .container-large {
    width: 100%;
    max-width: 90rem;

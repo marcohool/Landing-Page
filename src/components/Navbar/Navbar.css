@@ -2,12 +2,8 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 2.5rem 10rem;
+   padding: 1rem 0rem;
    background: var(--background);
-   position: fixed;
-   top: 0px;
-   left: 0;
-   right: 0;
 }
 
 .navbar--items {
