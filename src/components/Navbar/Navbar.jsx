@@ -33,50 +33,48 @@ function Navbar() {
    }, []);
 
    return (
-      <div className="padding--global">
-         <nav className={`navbar ${navActive ? "active" : ""}`}>
-            <div>
-               <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">
-                  <div className="navbar--img"></div>
-               </Link>
-            </div>
-            <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
-               <span className="nav__hamburger__line"></span>
-               <span className="nav__hamburger__line"></span>
-               <span className="nav__hamburger__line"></span>
-            </a>
-            <div className={`navbar--items ${navActive ? "active" : ""}`}>
-               <ul>
-                  <li>
-                     <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">
-                        Home
-                     </Link>
-                  </li>
-               </ul>
-               <ul>
-                  <li>
-                     <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="About" className="navbar--content">
-                        About Me
-                     </Link>
-                  </li>
-               </ul>
-               <ul>
-                  <li>
-                     <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MySkills" className="navbar--content">
-                        Skills
-                     </Link>
-                  </li>
-               </ul>
-               <ul>
-                  <li>
-                     <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="navbar--content">
-                        Contact Me
-                     </Link>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </div>
+      <nav className={`navbar ${navActive ? "active" : ""}`}>
+         <div>
+            <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">
+               <div className="navbar--img"></div>
+            </Link>
+         </div>
+         <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+            <span className="nav__hamburger__line"></span>
+            <span className="nav__hamburger__line"></span>
+            <span className="nav__hamburger__line"></span>
+         </a>
+         <div className={`navbar--items ${navActive ? "active" : ""}`}>
+            <ul>
+               <li>
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="heroSection" className="navbar--content">
+                     Home
+                  </Link>
+               </li>
+            </ul>
+            <ul>
+               <li>
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="About" className="navbar--content">
+                     About us
+                  </Link>
+               </li>
+            </ul>
+            <ul>
+               <li>
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MySkills" className="navbar--content">
+                     Sign in
+                  </Link>
+               </li>
+            </ul>
+            <ul>
+               <li>
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="navbar--content btn btn-primary">
+                     Start now
+                  </Link>
+               </li>
+            </ul>
+         </div>
+      </nav>
    );
 }
 

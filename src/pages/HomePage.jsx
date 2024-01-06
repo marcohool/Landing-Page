@@ -10,7 +10,7 @@ export default function HomePage() {
       // After component mounts, calculate and set padding-top
       const handleResize = () => {
          if (mainRef.current) {
-            const navbarHeight = document.querySelector("#root > div > div > div > div > nav").offsetHeight;
+            const navbarHeight = document.querySelector("#root > div > div > div > nav").offsetHeight;
             mainRef.current.style.paddingTop = `${navbarHeight}px`;
          }
       };
@@ -30,7 +30,7 @@ export default function HomePage() {
          </div>
          <div className="content">
             <div className="padding--global">
-               <div className="navbar--fixed--wrapper">
+               <div className="navbar-fixed-wrapper container-large">
                   <Navbar />
                </div>
                <main ref={mainRef}>

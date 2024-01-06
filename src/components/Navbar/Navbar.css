@@ -2,13 +2,14 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 1rem 0rem;
+   padding: 0.5rem 0rem;
    background: var(--background);
 }
 
 .navbar--items {
    display: flex;
    grid-column-gap: 2em;
+   align-items: center;
 }
 
 .navbar--img {
