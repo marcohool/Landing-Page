@@ -4,13 +4,13 @@ import "./HeroSection.css";
 function HeroSection() {
    return (
       <div className="container-large">
-         <div className="hero-section text-colour-white">
-            <div>
-               <h1>ADVENTURE AWAITS</h1>
-               <p>What are you waiting for?</p>
+         <div className="hero-section">
+            <div className="hero-title-div">
+               <h1 className="header-primary">1 long video, 10 viral clips. Create 10x faster.</h1>
+               <p className="subtitle-primary">What are you waiting for?</p>
             </div>
-            <div className="hero-buttons">
-               <button>Get Started</button>
+            <div className="hero-info-div">
+               <button className="btn btn-primary">Get Started</button>
             </div>
          </div>
       </div>

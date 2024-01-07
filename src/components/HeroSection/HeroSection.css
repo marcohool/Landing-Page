@@ -11,6 +11,15 @@
 .hero-section {
    display: flex;
    flex-direction: row;
+   grid-column-gap: 20px;
    justify-content: space-between;
    padding-top: 10rem;
+}
+
+.hero-title-div {
+   width: 100%;
+}
+
+.hero-info-div {
+   width: 100%;
 }

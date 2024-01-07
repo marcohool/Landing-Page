@@ -13,8 +13,8 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-   --primary: #c7493a;
-   --primary-alt: #a33327;
+   --primary: #fc4435;
+   --primary-alt: #c7493a;
    --secondary: #689775;
    --black: #000;
    --dark-grey: #222222;
@@ -50,6 +50,7 @@ body {
    text-align: center;
    text-decoration: none;
    border-radius: 10px;
+   border: 0;
    -webkit-border-radius: 14px;
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
@@ -64,10 +65,29 @@ body {
 .btn-primary {
    color: var(--white);
    background-color: var(--primary);
+   font-size: 18px;
+   font-weight: 500;
    /* border: 1px solid var(--primary); */
 }
 
 .btn-primary:hover {
    color: var(--primary);
    background-color: var(--primary-alt);
+}
+
+/* Text styling */
+.header-primary {
+   font-size: 4rem;
+   font-weight: 700;
+   color: var(--white);
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.subtitle-primary {
+   color: var(--primary);
+   font-size: 1.25rem;
+   font-weight: 500;
+   margin-top: 0;
+   margin-bottom: 0;
 }
