@@ -10,7 +10,10 @@ function HeroSection() {
                <p className="subtitle-primary">What are you waiting for?</p>
             </div>
             <div className="hero-info-div">
-               <button className="btn btn-primary">Get Started</button>
+               <img src="./images/Hero-Image-1.png" alt="Hero Image"></img>
+
+               {/* <div className="hero-img"></div> */}
+               {/* <button className="btn btn-primary">Get Started</button> */}
             </div>
          </div>
       </div>
