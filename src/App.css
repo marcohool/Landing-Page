@@ -78,10 +78,11 @@ body {
 /* Text styling */
 .header-primary {
    font-size: 4rem;
-   font-weight: 700;
+   font-weight: 600;
    color: var(--white);
    margin-top: 0;
    margin-bottom: 0;
+   line-height: 1.25;
 }
 
 .subtitle-primary {

@@ -23,17 +23,15 @@
 }
 
 .hero-info-div {
-   width: 100%; 
-   padding: 15px; 
-   background: #fff; /* Light background for a soft border feel */
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05); /* Layered shadow for depth */
-   border-radius: 10px; /* Slightly rounded corners for a softer look */
-   display: inline-block; /* Adjust based on your layout */
+   width: 100%;
 }
 
 .hero-info-div > img {
-   width: 100%; /* Image takes the full width of its container */
-   display: block; /* Ensures no extra space below the image */
-   border-radius: 5px; /* Slightly rounded corners to match the container */
-   transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+   height: 500px;
+   width: 500px;
+   display: block;
+   padding: 0.9rem;
+   background: #fff;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+   border-radius: 10px;
 }
