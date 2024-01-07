@@ -55,28 +55,21 @@ function Navbar() {
             <ul>
                <li>
                   <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="About" className="navbar--content">
-                     About Me
+                     About us
                   </Link>
                </li>
             </ul>
             <ul>
                <li>
                   <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MySkills" className="navbar--content">
-                     Skills
+                     Sign in
                   </Link>
                </li>
             </ul>
             <ul>
                <li>
-                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">
-                     Portfolio
-                  </Link>
-               </li>
-            </ul>
-            <ul>
-               <li>
-                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="navbar--content">
-                     Contact Me
+                  <Link onClick={closeMenu} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="Contact" className="navbar--content btn btn-primary">
+                     Start now
                   </Link>
                </li>
             </ul>

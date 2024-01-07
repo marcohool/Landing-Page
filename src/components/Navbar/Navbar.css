@@ -2,17 +2,14 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 2.5rem 22.5rem;
+   padding: 0.5rem 0rem;
    background: var(--background);
-   position: fixed;
-   top: 0px;
-   left: 0;
-   right: 0;
 }
 
 .navbar--items {
    display: flex;
    grid-column-gap: 2em;
+   align-items: center;
 }
 
 .navbar--img {
