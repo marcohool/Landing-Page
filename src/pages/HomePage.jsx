@@ -25,9 +25,6 @@ export default function HomePage() {
 
    return (
       <>
-         <div className="background-container">
-            <div className="background-img"></div>
-         </div>
          <div className="content">
             <div className="padding--global">
                <div className="navbar-fixed-wrapper">
