@@ -14,7 +14,13 @@
    position: fixed;
    left: 0;
    right: 0;
-   backdrop-filter: blur(16px);
+   background-color: transparent;
+   transition: background-color 0.3s ease;
+}
+
+.navbar-fixed-wrapper.scrolled {
+   background-color: var(--white);
+   border-bottom: 1px solid rgb(229 229 229);
 }
 
 .content {

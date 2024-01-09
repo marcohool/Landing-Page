@@ -6,7 +6,7 @@ body {
    -webkit-font-smoothing: "Poppins", sans-serif;
    -moz-osx-font-smoothing: "Poppins", sans-serif;
    font-style: normal;
-   background-color: var(--dark-grey);
+   background-color: var(--bg-color);
 }
 
 /* Fonts */
@@ -20,6 +20,7 @@ body {
    --dark-grey: #222222;
    --grey: #9c9c9c;
    --white: #ffffff;
+   --bg-color: rgb(241 241 241);
 }
 
 .padding-global {
